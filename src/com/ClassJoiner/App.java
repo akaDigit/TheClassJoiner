@@ -20,11 +20,11 @@ public class App
         {
             while(true)
             {
-                Calendar cal = Calendar.getInstance();
+                Calendar cal = Calendar.getInstance();      // This part basically obtains the Current Day and Time.
                 day = cal.get(Calendar.DAY_OF_WEEK);
                 hour = cal.get(Calendar.HOUR_OF_DAY);
                 minute = cal.get(Calendar.MINUTE);
-                second = cal.get(Calendar.SECOND);
+                second = cal.get(Calendar.SECOND);      // The second variable hasnt really been used in the program, but i did not want to remove it.
 
                 JoinMeeting(day, hour, minute, second);
             }
@@ -37,9 +37,17 @@ public class App
    
     }
 
+    /**
+     * 
+     * @param d - The day of the week. (1 - Sunday, 7 - Saturday)
+     * @param h - The hour of the day (24 hour format)
+     * @param m - The minute.
+     * @param s - The second.
+     */
+    
     public static void JoinMeeting(int d, int h, int m, int s)
     {
-        int row = 0, col = 0;
+        int row = 0, col = 0;       
         String meetingLink = "";
 
         if(d <= 6 && d >= 2)
@@ -76,7 +84,7 @@ public class App
             }
             else if(h >= 14)
             {
-                // School has ended
+                // School has ended, so killing Webex processes
                 AppKiller.killProcessANDchildren("WebexHost.exe");
                 AppKiller.killProcessANDchildren("atmgr.exe");
                 System.exit(0);
