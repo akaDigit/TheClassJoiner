@@ -19,7 +19,7 @@ public class ReadXLSX
         
         try 
         {
-            FileInputStream fis = new FileInputStream("D:\\Pranav\\000____Study Stuff\\10th School\\latest tt and links\\tt.xlsx");
+            FileInputStream fis = new FileInputStream("[Path to Spreadsheet]");
             wb = new XSSFWorkbook(fis);
         } 
         catch (FileNotFoundException e) 
