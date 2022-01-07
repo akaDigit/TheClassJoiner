@@ -1,8 +1,5 @@
 <h1 align="center">TheClassJoiner</h1>
 <p align = "center">This Repository contains the files for the project "TheClassJoiner"</p>
-
-<br/>
-
 <p align="center">TheClassJoiner is an <strong>Executable Jar File</strong> which will <strong>automatically</strong> join and leave my classes for me.
 It is all created in Java. </p>
 
