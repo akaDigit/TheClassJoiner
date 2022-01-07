@@ -12,10 +12,10 @@ public class OpenWebPage
 {
     public static void openWebPage(String link)
     {
-        System.setProperty("webdriver.edge.driver", "D:\\Pranav\\000____Study Stuff\\10th School\\latest tt and links\\msedgedriver.exe");
+        System.setProperty("webdriver.edge.driver", "[Path to Driver]");
         EdgeOptions edgeoptions = new EdgeOptions();
 
-        edgeoptions.addArguments("user-data-dir=C:\\Users\\ARORA\\AppData\\Local\\Microsoft\\Edge\\User Data");
+        edgeoptions.addArguments("user-data-dir=C:\\Users\\username\\AppData\\Local\\Microsoft\\Edge\\User Data");
         edgeoptions.addArguments("profile-directory=Default");
         edgeoptions.addArguments("--start-maximized");
 
@@ -49,7 +49,4 @@ public class OpenWebPage
         
         driver.close();
     }
-
-
-    //push_download_detec_link
 }
