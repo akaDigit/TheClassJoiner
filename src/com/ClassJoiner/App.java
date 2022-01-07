@@ -39,6 +39,8 @@ public class App
 
     /**
      * 
+     * This method executes the necessary tasks to open and join the meeting.
+     * 
      * @param d - The day of the week. (1 - Sunday, 7 - Saturday)
      * @param h - The hour of the day (24 hour format)
      * @param m - The minute.
