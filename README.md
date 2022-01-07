@@ -16,13 +16,11 @@ The jar will keep running in the background till school comes to an end (2PM)
 
 ## What if you want to stop it?
 
-To stop the application from running, execute - 
-`taskkill /f /im javaw.exe /t`
+<p> To stop the application from running, execute</p>
+- `taskkill /f /im javaw.exe /t`
 
-and if this gives an error,
-run - 
-
-`taskkill /f /im java.exe /t`
+<p>and if this gives an error, use</p>
+- `taskkill /f /im java.exe /t`
 
 irrespective of whether this gives an error, the application has stopped running.
 
