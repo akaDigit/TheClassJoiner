@@ -3,7 +3,7 @@
 <p align="center">TheClassJoiner is an <strong>Executable Jar File</strong> which will <strong>automatically</strong> join and leave my classes for me.
 It is all created in Java. </p>
 
-<p align="center"><a href="https://www.selenium.dev/"OpenQA Selenium Library</a> was used to handle web pages and <a href="https://poi.apache.org/">Apache POI Library</a> was used to access and manage the spreadsheet</p>
+<p align="center">The <a href="https://www.selenium.dev/">OpenQA Selenium Library</a> was used to handle web pages and the <a href="https://poi.apache.org/">Apache POI Library</a> was used to access and manage the spreadsheet</p>
 
 ## How to Run the File.
 
